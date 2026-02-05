@@ -1,0 +1,6 @@
+algorithm,text_size,avg_time_seconds
+Finite Automaton,1000,0.00037546419989666904
+Finite Automaton,5000,0.0009519934003037634
+Finite Automaton,10000,0.0016593250002188142
+Finite Automaton,50000,0.007641622200389974
+Finite Automaton,100000,0.014595943199674366
