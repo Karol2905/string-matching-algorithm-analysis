@@ -1,0 +1,6 @@
+algorithm,text_size,avg_time_seconds
+Suffix Automaton,1000,5.8527992223389445e-06
+Suffix Automaton,5000,8.464999700663611e-06
+Suffix Automaton,10000,1.2488400534493848e-05
+Suffix Automaton,50000,2.0659599977079778e-05
+Suffix Automaton,100000,2.290900010848418e-05
