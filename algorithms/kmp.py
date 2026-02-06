@@ -22,6 +22,7 @@ def kmp_search(text, pattern):
     lps = [0] * m
     length = 0
     i = 1
+    # lps[0]=0
 
     while i < m:
         if pattern[i] == pattern[length]:
