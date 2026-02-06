@@ -25,16 +25,16 @@ def rabin_karp_search(text, pattern, base=256, mod=101):
     window_hash = 0
 
     # h = base^(m-1) % mod, used to remove the leading character
-    h = 1
-    for _ in range(m - 1):
-        h = (h * base) % mod
+    h = pow(base, m-1, mod)
+
+
 
     # Compute initial hash for pattern and first window of text
     for i in range(m):
         pattern_hash = (base * pattern_hash + ord(pattern[i])) % mod
         window_hash = (base * window_hash + ord(text[i])) % mod
 
-    # Slide the pattern over the text
+   
     for i in range(n - m + 1):
         # If hash values match, verify characters one by one
         if pattern_hash == window_hash:
